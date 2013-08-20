@@ -1,0 +1,262 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	padding-left: 0px;
+	font: normal 11px Tahoma, Arial, Helvetica, sans-serif;
+	color: #666666;
+	background-color: #FFFFFF;
+	background-image: url(images/img01.jpg);
+	background-repeat: repeat-x;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #F49500;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+ul.sidebar
+{
+	left:1180px;
+	top:400px;
+	position:fixed;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+
+.sidebar a:link,a:visited
+{
+display:block;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#fea314;
+width:140px;
+text-align:left;
+font-size:14px;
+padding:4px;
+text-decoration:none;
+}
+
+.sidebar a:hover,a:active
+{
+background-color:#d6870c;
+}
+
+h3 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 11px;
+}
+
+p, blockquote, ul, ol {
+	line-height: 18px;
+	text-align: justify;
+}
+
+blockquote {
+	padding-left: 20px;
+	background: url(images/img05.gif) repeat-y;
+}
+
+a{
+	color: #F49500;
+}
+
+/*
+a:hover {
+	text-decoration: none;
+} */
+
+/* Header */
+
+#header {
+	width: 920px;
+	height: 275px;
+	margin: 0 auto;
+	background: url(images/img2.jpg);
+}
+
+#header h1, #header h2 {
+	text-transform: lowercase;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+#header h1 {
+	float: left;
+	padding: 120px 0 0 20px;
+	font-size: 36px;
+}
+
+#header h2 {
+	float: right;
+	padding: 134px 20px 0 0;
+	font-size: 22px;
+}
+
+/* Menu */
+
+#menu {
+	width: 920px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	padding: 17px 20px 0 20px;
+	background: url(images/img03.gif) no-repeat;
+	text-transform: uppercase;
+	text-decoration: none;
+	font: bold 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #D8D8D8;
+}
+
+#menu a:hover {
+	color: #FFFFFF;
+}
+
+#menu .first a {
+	background: none;
+}
+
+/* Content */
+
+#content {
+	width: 920px;
+	margin: 0 auto 20px auto;
+	padding: 20px;
+	background: #FFFFFF url(images/img04.jpg) repeat-x left bottom;
+}
+.postd {margin-bottom:15px; padding:0 10px;padding-left:500px}
+.post p {margin-bottom:16px;}
+.post {margin-bottom:15px; padding:0 10px;padding-left:00px}
+.postm {margin-bottom:15px; padding:0 10px;padding-left:500px}
+.post h3 {font-size:1.6em; margin-bottom:10px;}
+.post h4 {font-size:1.4em; margin-bottom:5px;}
+/* Posts */
+
+#posts {
+	float: left;
+	width: 920px;
+}
+
+/* Links */
+
+#links {
+	float: right;
+	width: 200px;
+	padding-left: 20px;
+	background: url(images/img05.gif) repeat-y;
+}
+
+#links ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#links li ul {
+	padding: 5px 0 30px 0;
+}
+
+#links li li {
+	padding: 7px 10px;
+	background: url(images/img06.gif) repeat-x left bottom;
+}
+
+#links li a {
+	text-decoration: none;
+}
+
+#links li a:hover {
+	text-decoration: underline;
+}
+
+#links li i {
+	font-style: normal;
+	font-size: 9px;
+}
+
+#links li h2 {
+	font-size: 14px;
+}
+
+/* Footer */
+
+#footer {
+	height: 40px;
+	padding: 20px;
+	background: #2D2D2D url(images/img07.gif) repeat-x;
+}
+
+#footer p {
+	text-align: center;
+	color: #999999;
+}
+
+
+
+#pagename {font:normal 3.8em 'TeXGyreAdventor', Arial, sans-serif; display:block; padding:30px 30px 30px 30px; color:#F49500; text-shadow:#4c7963 1px 1px 1px; }
+#pagename .descr {display:block; font-size:.4em; color:#000; }
+#pagename .titl {display:block; margin-bottom:10px; height:40px;padding-left: 450px}
+
+
+#slider {height:260px; width:920px; margin:auto;}
+#slider .container {position:relative; cursor:pointer; color:#eee; height:270px;  width:920px;  overflow:hidden; }
+#slider .slides li {display:block; height:290px; width:920px; position:relative; overflow:hidden; float:left;}
+.slides {position:relative;}
+#slider .slides p { display:block; float:left; font-size:1.6em; line-height:22px; color:#86b9a7; width:52%;}
+.slides h2 {display:block; font-size:2.8em; color:#fff; font-weight:normal!important; padding:55px 0 0 0; width:52%; margin-bottom:10px;}
+#slider .pagination {
+	display:block;
+	list-style:none;
+	z-index:999;
+	width:200px;
+	height:22px; padding-top:5px;
+	text-align:center;
+	position:absolute;
+	margin: 0 auto;
+	bottom:8px;
+	right:305px;
+	background:url(images/slidernavbg.png) no-repeat;
+	padding-left:30px;
+}
+
+ul.pagination li {display:inline;}
+ul.pagination a {display:block; float:left; background:url(images/slidernavnormal.png) no-repeat; width:16px; height:16px; text-indent:-4000px; overflow:hidden; margin:0 10px;}
+ul.pagination .active a {background:url(images/slidernavactive.png) no-repeat;}
+.mainimg {float:right; padding:30px 0 0 0;}
+
+.lightbox_centralElement
+{	font-size:16px;
+	text-align:justify;
+	background-color:#396;
+	color:#F00;
+}
+.lightbox_centralElement button {background-color:#069; font-family: "Trebuchet MS", Tahoma, sans-serif; color:#FFF;}

@@ -1,0 +1,21 @@
+<!--
+<a href="http://www.bits-csa.org" 
+    onclick="return confirm('Are you sure u want to visit CSA?');">CSA</a>
+	</ul>-->
+   <?php 
+   
+ <script type="text/javascript">
+    function show_confirm()
+        {
+            var r=confirm("Are you sure?");
+            if (r==true)
+            {                   
+            }
+            else
+            {                    
+            }
+        } 
+</script>
+    ?>
+       
+    
